@@ -18,7 +18,7 @@ app.post('/subscribe',(req,res)=>{
 return res.json({"sucess":false,"msg":"please select captcha"})
     }
     //secrect key
-const secretkey="6LdVbawUAAAAAGQqU7lD7jz4eSsnp7GnqzyeONyy"
+const secretkey="your secrect key"
 //verify url
 
 const verifyUrl=`
